@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+.app {}
+
+.logo {
+  width: 25rem;
+  z-index: 2;
+  opacity: 85%;
+}
+
+.search-container {
+  position: relative;
+  background-image: url(./assets/beach.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 1rem;
+  padding-left: 10rem;
+  height: 30rem;
+}
+
+.searchbar {
+  position: relative;
+  font-size: 1.5rem;
+  background-color: azure;
+  border: 2px solid;
+  border-radius: 1rem;
+  border-color: azure;
+  padding: 2.5rem;
+  height: 3.5rem;
+  margin: 3rem;
+  color: black;
+  opacity: 85%;
+}
+
+.searchbar:focus {
+  outline: none;
+  border: 1px solid #007bff;
+  /* your brand primary */
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.searchbar:hover {
+  border-color: #007bff;
+  border: 2px solid;
+}
+
+.searchbar::placeholder {
+  color: rgb(192, 199, 207);
+}
+
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 2rem;
+}
+
+.options-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.options-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.sorting-menus {
+  display: flex;
+}
+
+.top-p{
+  font-weight:500;
+  font-size: 2rem;
+}
+
+.hotel-card {
+  background: rgba(169, 228, 255, 0.75);
+  border-radius: 2rem;
+  width: 25rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: end;
+  padding: 1rem;
+  margin: 1rem;
+  box-shadow: 5px 5px 10px 2px rgba(152, 151, 151, 0.15);
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+}
+
+.hotel-card:hover {
+  box-shadow: 5px 5px 10px 2px rgba(28, 28, 28, 0.15);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.menu-button {
+  display: flex !important;
+  position: absolute !important;
+  font-size: 2rem !important;
+  top: .5rem;
+  left: .5rem;
+  color: azure !important;
+}
+
+bottom footer {
+  padding: 2rem;
+  display: flex;
+  font-size: 1rem;
+  bottom: .5rem;
+  left: .5rem;
+}
