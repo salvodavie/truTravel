@@ -8,14 +8,16 @@ function App() {
   /*Drawer Menu Control */
   const [drawerOpen, setDrawerOpen] = useState(false);
 
+  /*Searching states */
   const [location, setLocation] = useState('Miami');
   const [search, setSearch] = useState('');
   const [searchInput, setSearchInput] = useState('');
   const [hotels, setHotels] = useState([])
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
-  const [selectedAmenities, setSelectedAmenities] = useState([]);
 
+/*Sorting & filtering states */
+  const [selectedAmenities, setSelectedAmenities] = useState([]);
   const [sortOption, setSortOption] = useState({ sortBy: "price", order:"desc" })
 
   const toggleDrawer = (open) => () => {
@@ -27,6 +29,7 @@ function App() {
       hotel.amenities.map(a => a.toLowerCase()).includes(amenity.toLowerCase())
     )
   );
+
 
 
 /*Results Sorting*/
@@ -62,7 +65,7 @@ const sortedHotels = handleSortHotels(filteredHotels, sortOption);
     return sorted;
   }
 
-  /*fetchHotels*/
+/*fetchHotels*/
 
 useEffect(() => {
   async function loadHotels() {

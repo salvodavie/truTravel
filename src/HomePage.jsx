@@ -5,6 +5,7 @@ import logoWhite from './assets/logoWhite.png';
 import ResultsList from "./ResultsList"
 import SortMenu from "./SortMenu"
 import FilterMenu from "./FilterMenu"
+import { motion } from "framer-motion";
 
 function HomePage({ toggleDrawer, drawerOpen, search, setSearch, filteredHotels, searchInput, setSearchInput, selectedAmenities, setSelectedAmenities, setSortOption, sortOption }) {
 
@@ -19,6 +20,17 @@ function HomePage({ toggleDrawer, drawerOpen, search, setSearch, filteredHotels,
                 <img className='logo' src={logoWhite} alt="Logo" />
 
                 <div className="search-ui">
+
+                    <motion.h2
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.8 }}
+                    >
+                        It’s time to get away.
+                    </motion.h2>
+                    <h6 div className="welcome-text2">Find your perfect stay, anywhere in the world.</h6>
+
+
                     <input
                         type="text"
                         className="searchbar"
@@ -40,17 +52,21 @@ function HomePage({ toggleDrawer, drawerOpen, search, setSearch, filteredHotels,
             <div className="bottom">
                 <div className="options-bar">
                     <div className="options-text">
-                        <h2>Showing Results for {search}</h2>
-                        <p>Based on your selections</p>
+                        {search
+                            ?
+                            <div>
+                                <h2>Showing Results for {search.charAt(0).toUpperCase() + search.slice(1)}</h2>
+                                <p>Based on your selections</p>
+                            </div>
+
+                            : null}
+
                     </div>
                     <div className="sorting-menus">
-                        <SortMenu sx={{
-                            width: '10px',
-                            color: "red"
-                        }}
+                        <SortMenu
                             setSortOption={setSortOption}
-                            sortOption={sortOption}
-                        />
+                            sortOption={sortOption} />
+
                         <FilterMenu
                             selectedAmenities={selectedAmenities}
                             setSelectedAmenities={setSelectedAmenities}
@@ -59,7 +75,7 @@ function HomePage({ toggleDrawer, drawerOpen, search, setSearch, filteredHotels,
                 </div>
 
                 <div>
-                    <ResultsList filteredHotels={filteredHotels} />
+                    <ResultsList filteredHotels={filteredHotels} search={search} />
                 </div>
             </div>
 
