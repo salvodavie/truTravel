@@ -11,7 +11,7 @@
         "WiFi",
         "Gym"
       ],
-      "image": "/public/hotel3.jpg"
+      "image": "/hotel3.jpg"
     },
     {
       "id": 2,
@@ -23,7 +23,7 @@
         "Spa",
         "WiFi"
       ],
-      "image": "/public/hotel5.jpg"
+      "image": "/hotel5.jpg"
     },
     {
       "id": 3,
@@ -35,7 +35,7 @@
         "Bar",
         "Gym"
       ],
-      "image": "/public/hotel1.jpg"
+      "image": "/hotel1.jpg"
     },
     {
       "id": 4,
@@ -49,7 +49,7 @@
         "WiFi",
         "Bar"
       ],
-      "image": "/public/hotel7.jpg"
+      "image": "/hotel7.jpg"
     },
     {
       "id": 5,
@@ -61,7 +61,7 @@
         "WiFi",
         "Breakfast"
       ],
-      "image": "/public/hotel4.jpg"
+      "image": "/hotel4.jpg"
     },
     {
       "id": 6,
@@ -74,7 +74,7 @@
         "Bar",
         "WiFi"
       ],
-      "image": "/public/hotel2.jpg"
+      "image": "/hotel2.jpg"
     },
     {
       "id": 7,
@@ -87,7 +87,7 @@
         "Breakfast",
         "WiFi"
       ],
-      "image": "/public/hotel6.jpg"
+      "image": "/hotel6.jpg"
     },
     {
       "id": 8,
@@ -100,7 +100,7 @@
         "WiFi",
         "Pool"
       ],
-      "image": "/public/hotel1.jpg"
+      "image": "/hotel1.jpg"
     },
     {
       "id": 9,
@@ -112,7 +112,7 @@
         "Gym",
         "Breakfast"
       ],
-      "image": "/public/hotel5.jpg"
+      "image": "/hotel5.jpg"
     },
     {
       "id": 10,
@@ -125,7 +125,7 @@
         "Spa",
         "WiFi"
       ],
-      "image": "/public/hotel6.jpg"
+      "image": "/hotel6.jpg"
     },
     {
       "id": 11,
@@ -139,7 +139,7 @@
         "Spa",
         "Gym"
       ],
-      "image": "/public/hotel2.jpg"
+      "image": "/hotel2.jpg"
     },
     {
       "id": 12,
@@ -151,7 +151,7 @@
         "WiFi",
         "Breakfast"
       ],
-      "image": "/public/hotel7.jpg"
+      "image": "/hotel7.jpg"
     },
     {
       "id": 13,
@@ -164,7 +164,7 @@
         "WiFi",
         "Breakfast"
       ],
-      "image": "/public/hotel4.jpg"
+      "image": "/hotel4.jpg"
     },
     {
       "id": 14,
@@ -177,7 +177,7 @@
         "WiFi",
         "Bar"
       ],
-      "image": "/public/hotel5.jpg"
+      "image": "/hotel5.jpg"
     },
     {
       "id": 15,
@@ -189,7 +189,7 @@
         "WiFi",
         "Bar"
       ],
-      "image": "/public/hotel3.jpg"
+      "image": "/hotel3.jpg"
     },
     {
       "id": 16,
@@ -202,7 +202,7 @@
         "Pool",
         "Breakfast"
       ],
-      "image": "/public/hotel6.jpg"
+      "image": "/hotel6.jpg"
     },
     {
       "id": 17,
@@ -215,7 +215,7 @@
         "Spa",
         "WiFi"
       ],
-      "image": "/public/hotel1.jpg"
+      "image": "/hotel1.jpg"
     },
     {
       "id": 18,
@@ -228,7 +228,7 @@
         "Gym",
         "Breakfast"
       ],
-      "image": "/public/hotel7.jpg"
+      "image": "/hotel7.jpg"
     },
     {
       "id": 19,
@@ -240,7 +240,7 @@
         "Pool",
         "WiFi"
       ],
-      "image": "/public/hotel2.jpg"
+      "image": "/hotel2.jpg"
     },
     {
       "id": 20,
@@ -253,7 +253,7 @@
         "WiFi",
         "Breakfast"
       ],
-      "image": "/public/hotel4.jpg"
+      "image": "/hotel4.jpg"
     },
     {
       "id": 21,
@@ -266,7 +266,7 @@
         "Gym",
         "WiFi"
       ],
-      "image": "/public/hotel3.jpg"
+      "image": "/hotel3.jpg"
     },
     {
       "id": 22,
@@ -278,7 +278,7 @@
         "WiFi",
         "Breakfast"
       ],
-      "image": "/public/hotel6.jpg"
+      "image": "/hotel6.jpg"
     },
     {
       "id": 23,
@@ -291,7 +291,7 @@
         "Spa",
         "WiFi"
       ],
-      "image": "/public/hotel7.jpg"
+      "image": "/hotel7.jpg"
     },
     {
       "id": 24,
@@ -304,7 +304,7 @@
         "WiFi",
         "Pool"
       ],
-      "image": "/public/hotel5.jpg"
+      "image": "/hotel5.jpg"
     },
     {
       "id": 25,
@@ -318,7 +318,7 @@
         "WiFi",
         "Bar"
       ],
-      "image": "/public/hotel2.jpg"
+      "image": "/hotel2.jpg"
     },
     {
       "id": 26,
@@ -331,7 +331,7 @@
         "WiFi",
         "Breakfast"
       ],
-      "image": "/public/hotel4.jpg"
+      "image": "/hotel4.jpg"
     },
     {
       "id": 27,
@@ -345,7 +345,7 @@
         "Spa",
         "Gym"
       ],
-      "image": "/public/hotel1.jpg"
+      "image": "/hotel1.jpg"
     },
     {
       "id": 28,
@@ -358,7 +358,7 @@
         "Gym",
         "Breakfast"
       ],
-      "image": "/public/hotel7.jpg"
+      "image": "/hotel7.jpg"
     },
     {
       "id": 29,
@@ -372,7 +372,7 @@
         "WiFi",
         "Spa"
       ],
-      "image": "/public/hotel6.jpg"
+      "image": "/hotel6.jpg"
     },
     {
       "id": 30,
@@ -384,7 +384,7 @@
         "Breakfast",
         "WiFi"
       ],
-      "image": "/public/hotel3.jpg"
+      "image": "/hotel3.jpg"
     },
     {
       "id": 31,
@@ -397,7 +397,7 @@
         "WiFi",
         "Spa"
       ],
-      "image": "/public/hotel2.jpg"
+      "image": "/hotel2.jpg"
     },
     {
       "id": 32,
@@ -409,7 +409,7 @@
         "WiFi",
         "Breakfast"
       ],
-      "image": "/public/hotel5.jpg"
+      "image": "/hotel5.jpg"
     },
     {
       "id": 33,
@@ -422,7 +422,7 @@
         "Gym",
         "WiFi"
       ],
-      "image": "/public/hotel1.jpg"
+      "image": "/hotel1.jpg"
     },
     {
       "id": 34,
@@ -436,7 +436,7 @@
         "Breakfast",
         "WiFi"
       ],
-      "image": "/public/hotel7.jpg"
+      "image": "/hotel7.jpg"
     },
     {
       "id": 35,
@@ -450,7 +450,7 @@
         "Spa",
         "WiFi"
       ],
-      "image": "/public/hotel4.jpg"
+      "image": "/hotel4.jpg"
     },
     {
       "id": 36,
@@ -462,7 +462,7 @@
         "WiFi",
         "Bar"
       ],
-      "image": "/public/hotel2.jpg"
+      "image": "/hotel2.jpg"
     },
     {
       "id": 37,
@@ -475,7 +475,7 @@
         "WiFi",
         "Breakfast"
       ],
-      "image": "/public/hotel5.jpg"
+      "image": "/hotel5.jpg"
     },
     {
       "id": 38,
@@ -488,7 +488,7 @@
         "WiFi",
         "Bar"
       ],
-      "image": "/public/hotel7.jpg"
+      "image": "/hotel7.jpg"
     },
     {
       "id": 39,
@@ -500,7 +500,7 @@
         "Breakfast",
         "WiFi"
       ],
-      "image": "/public/hotel3.jpg"
+      "image": "/hotel3.jpg"
     },
     {
       "id": 40,
@@ -513,7 +513,7 @@
         "WiFi",
         "Bar"
       ],
-      "image": "/public/hotel6.jpg"
+      "image": "/hotel6.jpg"
     },
     {
       "id": 41,
@@ -526,7 +526,7 @@
         "WiFi",
         "Gym"
       ],
-      "image": "/public/hotel1.jpg"
+      "image": "/hotel1.jpg"
     },
     {
       "id": 42,
@@ -539,7 +539,7 @@
         "WiFi",
         "Breakfast"
       ],
-      "image": "/public/hotel2.jpg"
+      "image": "/hotel2.jpg"
     },
     {
       "id": 43,
@@ -552,7 +552,7 @@
         "Pool",
         "WiFi"
       ],
-      "image": "/public/hotel5.jpg"
+      "image": "/hotel5.jpg"
     }
   ]
 }
