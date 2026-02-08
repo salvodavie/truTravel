@@ -84,7 +84,7 @@ function HomePage({ toggleDrawer, drawerOpen, search, setSearch, filteredHotels,
 
             <div className="bottom">
             </div>
-            <footer>blah blah</footer>
+            <footer></footer>
         </div>
     );
 };

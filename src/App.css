@@ -102,7 +102,6 @@
 .searchbar:focus {
   outline: none;
   border: 1px solid #007bff;
-  /* your brand primary */
   box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
   transition: box-shadow 0.2s ease, border-color 0.2s ease;
 }
